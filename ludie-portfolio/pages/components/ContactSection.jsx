@@ -120,8 +120,8 @@ export default function ContactSection() {
                   Contact information
                 </h3>
                 <p className="mt-6 max-w-3xl text-base text-teal-50">
-                  Nullam risus blandit ac aliquam justo ipsum. Quam mauris
-                  volutpat massa dictumst amet. Sapien tortor lacus arcu.
+                  Please feel free to reach out to me with any questions or
+                  feedback.
                 </p>
                 <dl className="mt-8 space-y-6">
                   <dt>
@@ -132,7 +132,7 @@ export default function ContactSection() {
                       className="h-6 w-6 flex-shrink-0 text-teal-200"
                       aria-hidden="true"
                     />
-                    <span className="ml-3">+1 (555) 123-4567</span>
+                    <span className="ml-3">+1 (714) 867-7633</span>
                   </dd>
                   <dt>
                     <span className="sr-only">Email</span>
@@ -142,12 +142,15 @@ export default function ContactSection() {
                       className="h-6 w-6 flex-shrink-0 text-teal-200"
                       aria-hidden="true"
                     />
-                    <span className="ml-3">support@workcation.com</span>
+                    <span className="ml-3">Ludiefletcher@gmail.com</span>
                   </dd>
                 </dl>
                 <ul role="list" className="mt-8 flex space-x-12">
                   <li>
-                    <a className="text-teal-200 hover:text-teal-100" href="#">
+                    <a
+                      className="text-teal-200 hover:text-teal-100"
+                      href="https://www.facebook.com/ludie.lambrightv"
+                    >
                       <span className="sr-only">Facebook</span>
                       <svg
                         className="h-7 w-7"
@@ -164,7 +167,10 @@ export default function ContactSection() {
                     </a>
                   </li>
                   <li>
-                    <a className="text-teal-200 hover:text-teal-100" href="#">
+                    <a
+                      className="text-teal-200 hover:text-teal-100"
+                      href="https://github.com/veidul"
+                    >
                       <span className="sr-only">GitHub</span>
                       <svg
                         className="h-7 w-7"
@@ -181,7 +187,10 @@ export default function ContactSection() {
                     </a>
                   </li>
                   <li>
-                    <a className="text-teal-200 hover:text-teal-100" href="#">
+                    <a
+                      className="text-teal-200 hover:text-teal-100"
+                      href="https://twitter.com/ludiefletcher"
+                    >
                       <span className="sr-only">Twitter</span>
                       <svg
                         className="h-7 w-7"
@@ -197,7 +206,7 @@ export default function ContactSection() {
               </div>
 
               {/* Contact form */}
-              <div className="py-10 px-6 sm:px-10 lg:col-span-2 xl:p-12">
+              <div className="py-10 px-6 sm:px-10 lg:col-span-2 xl:p-12 text-gray-600">
                 <h3 className="text-lg font-medium text-warm-gray-900">
                   Send us a message
                 </h3>
@@ -219,7 +228,7 @@ export default function ContactSection() {
                         name="first-name"
                         id="first-name"
                         autoComplete="given-name"
-                        className="block w-full rounded-md border-warm-gray-300 py-3 px-4 text-warm-gray-900 shadow-sm focus:border-teal-500 focus:ring-teal-500"
+                        className=" bg-white block w-full rounded-md border-warm-gray-300 py-3 px-4 text-warm-gray-900 shadow-sm focus:border-teal-500 focus:ring-teal-500"
                       />
                     </div>
                   </div>
@@ -236,7 +245,7 @@ export default function ContactSection() {
                         name="last-name"
                         id="last-name"
                         autoComplete="family-name"
-                        className="block w-full rounded-md border-warm-gray-300 py-3 px-4 text-warm-gray-900 shadow-sm focus:border-teal-500 focus:ring-teal-500"
+                        className="bg-white block w-full rounded-md border-warm-gray-300 py-3 px-4 text-warm-gray-900 shadow-sm focus:border-teal-500 focus:ring-teal-500"
                       />
                     </div>
                   </div>
@@ -253,7 +262,7 @@ export default function ContactSection() {
                         name="email"
                         type="email"
                         autoComplete="email"
-                        className="block w-full rounded-md border-warm-gray-300 py-3 px-4 text-warm-gray-900 shadow-sm focus:border-teal-500 focus:ring-teal-500"
+                        className="bg-white block w-full rounded-md border-warm-gray-300 py-3 px-4 text-warm-gray-900 shadow-sm focus:border-teal-500 focus:ring-teal-500"
                       />
                     </div>
                   </div>
@@ -261,7 +270,7 @@ export default function ContactSection() {
                     <div className="flex justify-between">
                       <label
                         htmlFor="phone"
-                        className="block text-sm font-medium text-warm-gray-900"
+                        className="bg-white block text-sm font-medium text-warm-gray-900"
                       >
                         Phone
                       </label>
@@ -278,7 +287,7 @@ export default function ContactSection() {
                         name="phone"
                         id="phone"
                         autoComplete="tel"
-                        className="block w-full rounded-md border-warm-gray-300 py-3 px-4 text-warm-gray-900 shadow-sm focus:border-teal-500 focus:ring-teal-500"
+                        className="bg-white block w-full rounded-md border-warm-gray-300 py-3 px-4 text-warm-gray-900 shadow-sm focus:border-teal-500 focus:ring-teal-500"
                         aria-describedby="phone-optional"
                       />
                     </div>
@@ -295,7 +304,7 @@ export default function ContactSection() {
                         type="text"
                         name="subject"
                         id="subject"
-                        className="block w-full rounded-md border-warm-gray-300 py-3 px-4 text-warm-gray-900 shadow-sm focus:border-teal-500 focus:ring-teal-500"
+                        className="bg-white block w-full rounded-md border-warm-gray-300 py-3 px-4 text-warm-gray-900 shadow-sm focus:border-teal-500 focus:ring-teal-500"
                       />
                     </div>
                   </div>
@@ -319,7 +328,7 @@ export default function ContactSection() {
                         id="message"
                         name="message"
                         rows={4}
-                        className="block w-full rounded-md border-warm-gray-300 py-3 px-4 text-warm-gray-900 shadow-sm focus:border-teal-500 focus:ring-teal-500"
+                        className="bg-white block w-full rounded-md border-warm-gray-300 py-3 px-4 text-warm-gray-900 shadow-sm focus:border-teal-500 focus:ring-teal-500"
                         aria-describedby="message-max"
                         defaultValue={""}
                       />

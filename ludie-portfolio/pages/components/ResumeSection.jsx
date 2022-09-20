@@ -1,30 +1,30 @@
 import {
-  LifebuoyIcon,
-  NewspaperIcon,
-  PhoneIcon,
+  AcademicCapIcon,
+  CodeBracketIcon,
+  ServerStackIcon,
+  DocumentArrowDownIcon,
 } from "@heroicons/react/24/outline";
-
 const supportLinks = [
   {
-    name: "Sales",
+    name: "Front End Tech",
     href: "#",
     description:
-      "Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames.",
-    icon: PhoneIcon,
+      "React, Typescript, Next.js, React, Redux, Node.js, Jquery, Python",
+    icon: CodeBracketIcon,
   },
   {
-    name: "Technical Support",
+    name: "Backend Tech",
     href: "#",
     description:
-      "Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames.",
-    icon: LifebuoyIcon,
+      "Node.js, AWS, Python, MongoDB, DynamoDB, MySql, Express, GraphQL",
+    icon: ServerStackIcon,
   },
   {
-    name: "Media Inquiries",
+    name: "Certifications",
     href: "#",
     description:
-      "Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames.",
-    icon: NewspaperIcon,
+      "Full Stack Web Development(MERN stack), React Testing, React, Advanced React, Python3, Typescript",
+    icon: AcademicCapIcon,
   },
 ];
 
@@ -52,6 +52,24 @@ export default function ResumeSection() {
             Included below are lists of the technologies I am familiar with and
             a link to download a current copy of my resume.
           </p>
+          <div className="my-2">
+            <a
+              download="LudieResume.pdf"
+              href="https://ludielambright-resume.tiiny.site/"
+              title="Ludie-Resume"
+            >
+              <button
+                type="button"
+                className="inline-flex items-center rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+              >
+                <DocumentArrowDownIcon
+                  className="-ml-1 mr-3 h-5 w-5"
+                  aria-hidden="true"
+                />
+                Resume
+              </button>
+            </a>
+          </div>
         </div>
       </div>
 
@@ -82,14 +100,6 @@ export default function ResumeSection() {
                 <p className="mt-4 text-base text-gray-500">
                   {link.description}
                 </p>
-              </div>
-              <div className="rounded-bl-2xl rounded-br-2xl bg-gray-50 p-6 md:px-8">
-                <a
-                  href={link.href}
-                  className="text-base font-medium text-indigo-700 hover:text-indigo-600"
-                >
-                  Contact us<span aria-hidden="true"> &rarr;</span>
-                </a>
               </div>
             </div>
           ))}
