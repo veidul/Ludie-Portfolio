@@ -15,7 +15,7 @@ export default function ContactSection() {
 
             <div className="grid grid-cols-1 lg:grid-cols-3">
               {/* Contact information */}
-              <div className="relative overflow-hidden bg-gradient-to-b from-teal-500 to-teal-600 py-10 px-6 sm:px-10 xl:p-12">
+              <div className="relative overflow-hidden bg-gradient-to-b from-indigo-500 to-indigo-600 py-10 px-6 sm:px-10 xl:p-12">
                 {/* Decorative angle backgrounds */}
                 <div
                   className="pointer-events-none absolute inset-0 sm:hidden"
@@ -119,7 +119,7 @@ export default function ContactSection() {
                 <h3 className="text-lg font-medium text-white">
                   Contact information
                 </h3>
-                <p className="mt-6 max-w-3xl text-base text-teal-50">
+                <p className="mt-6 max-w-3xl text-base text-indigo-50">
                   Please feel free to reach out to me with any questions or
                   feedback.
                 </p>
@@ -127,9 +127,9 @@ export default function ContactSection() {
                   <dt>
                     <span className="sr-only">Phone number</span>
                   </dt>
-                  <dd className="flex text-base text-teal-50">
+                  <dd className="flex text-base text-indigo-50">
                     <PhoneIcon
-                      className="h-6 w-6 flex-shrink-0 text-teal-200"
+                      className="h-6 w-6 flex-shrink-0 text-indigo-200"
                       aria-hidden="true"
                     />
                     <span className="ml-3">+1 (714) 867-7633</span>
@@ -137,9 +137,9 @@ export default function ContactSection() {
                   <dt>
                     <span className="sr-only">Email</span>
                   </dt>
-                  <dd className="flex text-base text-teal-50">
+                  <dd className="flex text-base text-indigo-50">
                     <EnvelopeIcon
-                      className="h-6 w-6 flex-shrink-0 text-teal-200"
+                      className="h-6 w-6 flex-shrink-0 text-indigo-200"
                       aria-hidden="true"
                     />
                     <span className="ml-3">Ludiefletcher@gmail.com</span>
@@ -148,7 +148,7 @@ export default function ContactSection() {
                 <ul role="list" className="mt-8 flex space-x-12">
                   <li>
                     <a
-                      className="text-teal-200 hover:text-teal-100"
+                      className="text-indigo-200 hover:text-indigo-100"
                       href="https://www.facebook.com/ludie.lambrightv"
                     >
                       <span className="sr-only">Facebook</span>
@@ -168,7 +168,7 @@ export default function ContactSection() {
                   </li>
                   <li>
                     <a
-                      className="text-teal-200 hover:text-teal-100"
+                      className="text-indigo-200 hover:text-indigo-100"
                       href="https://github.com/veidul"
                     >
                       <span className="sr-only">GitHub</span>
@@ -188,7 +188,7 @@ export default function ContactSection() {
                   </li>
                   <li>
                     <a
-                      className="text-teal-200 hover:text-teal-100"
+                      className="text-indigo-200 hover:text-indigo-100"
                       href="https://twitter.com/ludiefletcher"
                     >
                       <span className="sr-only">Twitter</span>
@@ -228,7 +228,7 @@ export default function ContactSection() {
                         name="first-name"
                         id="first-name"
                         autoComplete="given-name"
-                        className=" bg-white block w-full rounded-md border-warm-gray-300 py-3 px-4 text-warm-gray-900 shadow-sm focus:border-teal-500 focus:ring-teal-500"
+                        className=" bg-white block w-full rounded-md border-warm-gray-300 py-3 px-4 text-warm-gray-900 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
                       />
                     </div>
                   </div>
@@ -245,7 +245,7 @@ export default function ContactSection() {
                         name="last-name"
                         id="last-name"
                         autoComplete="family-name"
-                        className="bg-white block w-full rounded-md border-warm-gray-300 py-3 px-4 text-warm-gray-900 shadow-sm focus:border-teal-500 focus:ring-teal-500"
+                        className="bg-white block w-full rounded-md border-warm-gray-300 py-3 px-4 text-warm-gray-900 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
                       />
                     </div>
                   </div>
@@ -262,7 +262,7 @@ export default function ContactSection() {
                         name="email"
                         type="email"
                         autoComplete="email"
-                        className="bg-white block w-full rounded-md border-warm-gray-300 py-3 px-4 text-warm-gray-900 shadow-sm focus:border-teal-500 focus:ring-teal-500"
+                        className="bg-white block w-full rounded-md border-warm-gray-300 py-3 px-4 text-warm-gray-900 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
                       />
                     </div>
                   </div>
@@ -287,7 +287,7 @@ export default function ContactSection() {
                         name="phone"
                         id="phone"
                         autoComplete="tel"
-                        className="bg-white block w-full rounded-md border-warm-gray-300 py-3 px-4 text-warm-gray-900 shadow-sm focus:border-teal-500 focus:ring-teal-500"
+                        className="bg-white block w-full rounded-md border-warm-gray-300 py-3 px-4 text-warm-gray-900 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
                         aria-describedby="phone-optional"
                       />
                     </div>
@@ -304,7 +304,7 @@ export default function ContactSection() {
                         type="text"
                         name="subject"
                         id="subject"
-                        className="bg-white block w-full rounded-md border-warm-gray-300 py-3 px-4 text-warm-gray-900 shadow-sm focus:border-teal-500 focus:ring-teal-500"
+                        className="bg-white block w-full rounded-md border-warm-gray-300 py-3 px-4 text-warm-gray-900 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
                       />
                     </div>
                   </div>
@@ -328,7 +328,7 @@ export default function ContactSection() {
                         id="message"
                         name="message"
                         rows={4}
-                        className="bg-white block w-full rounded-md border-warm-gray-300 py-3 px-4 text-warm-gray-900 shadow-sm focus:border-teal-500 focus:ring-teal-500"
+                        className="bg-white block w-full rounded-md border-warm-gray-300 py-3 px-4 text-warm-gray-900 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
                         aria-describedby="message-max"
                         defaultValue={""}
                       />
@@ -337,7 +337,7 @@ export default function ContactSection() {
                   <div className="sm:col-span-2 sm:flex sm:justify-end">
                     <button
                       type="submit"
-                      className="mt-2 inline-flex w-full items-center justify-center rounded-md border border-transparent bg-teal-500 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-teal-600 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2 sm:w-auto"
+                      className="mt-2 inline-flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-500 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 sm:w-auto"
                     >
                       Submit
                     </button>

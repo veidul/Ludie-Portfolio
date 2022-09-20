@@ -36,19 +36,19 @@ export default function ResumeSection() {
         <div className="absolute inset-0">
           <img
             className="h-full w-full object-cover"
-            src="https://images.unsplash.com/photo-1525130413817-d45c1d127c42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=60&&sat=-100"
+            src="https://i.ibb.co/sC6GPyK/Pexels-btgl-3894157.jpg"
             alt=""
           />
           <div
-            className="absolute inset-0 bg-gray-800 mix-blend-multiply"
+            className="absolute inset-0 bg-slate-600 mix-blend-multiply"
             aria-hidden="true"
           />
         </div>
         <div className="relative mx-auto max-w-7xl py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
-          <h1 className="text-4xl font-bold tracking-tight text-white md:text-5xl lg:text-6xl">
+          <h1 className="text-4xl font-bold tracking-tight text-indigo-300 md:text-5xl lg:text-6xl">
             Resume
           </h1>
-          <p className="mt-6 max-w-3xl text-xl text-gray-300">
+          <p className="mt-6 max-w-3xl text-xl text-indigo-300">
             Included below are lists of the technologies I am familiar with and
             a link to download a current copy of my resume.
           </p>

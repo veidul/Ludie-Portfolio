@@ -1,4 +1,9 @@
 import { GlobeAltIcon } from "@heroicons/react/24/solid";
+const myStyle = {
+  backgroundImage:
+    "url('https://i.ibb.co/7kQKhXd/pexels-jeremy-bishop-2397652.jpg')",
+  backgroundSize: "cover",
+};
 const posts = [
   {
     title: "Cypher-DM",
@@ -65,20 +70,14 @@ export default function ProjectsSection() {
   return (
     <div
       id="ProjectsSection"
-      className="relative bg-gray-50 px-4 pt-16 pb-20 sm:px-6 lg:px-8 lg:pt-24 lg:pb-28"
+      className="relative bg-gray-50 px-4 pt-16 pb-20 sm:px-6 lg:px-8 lg:pt-24 lg:pb-28 h-fit"
+      style={myStyle}
     >
-      <div className="absolute inset-0">
-        <div className="h-1/3 bg-white sm:h-2/3" />
-      </div>
       <div className="relative mx-auto max-w-7xl">
         <div className="text-center">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            Things I've Built
+          <h2 className="w-fit p-2 rounded text-3xl font-bold tracking-tight text-indigo-300 sm:text-4xl">
+            Things I Have Built
           </h2>
-          <p className="mx-auto mt-3 max-w-2xl text-xl text-gray-500 sm:mt-4">
-            Listed below are some of the projects I have had the pleasure of
-            working on.
-          </p>
         </div>
         <div className="mx-auto mt-12 grid max-w-lg gap-5 lg:max-w-none lg:grid-cols-3">
           {posts.map((post) => (
@@ -97,13 +96,13 @@ export default function ProjectsSection() {
                 <div className="flex-1">
                   <p className="text-sm font-medium text-indigo-600"></p>
                   <a href={post.href} className="mt-2 block">
-                    <p className="text-xl font-semibold text-gray-900">
+                    <p className="text-xl font-semibold text-indigo-400">
                       {post.title}
                     </p>
-                    <p className="mt-3 text-base text-gray-500">
+                    <p className="mt-3 text-base text-gray-900">
                       {post.description}
                     </p>
-                    <p className="text-sm font-medium text-gray-500 my-2">
+                    <p className="text-sm font-medium text-gray-900 my-2">
                       Tech:{post.technologies}
                     </p>
                   </a>
@@ -117,7 +116,7 @@ export default function ProjectsSection() {
                     />
                   </a>
                   <a className="flex w-fit hover:bg-slate-400" href={post.href}>
-                    <GlobeAltIcon className="h-10 w-10 text-slate-800" />
+                    <GlobeAltIcon className="h-10 w-10 text-gray-700" />
                   </a>
                 </div>
                 <div className="font-bold text-xl mb-2"></div>
