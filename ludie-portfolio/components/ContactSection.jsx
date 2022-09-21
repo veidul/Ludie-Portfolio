@@ -1,5 +1,5 @@
 import { EnvelopeIcon, PhoneIcon } from "@heroicons/react/24/outline";
-import { ContactUs } from "./ContactForm";
+import ContactUs from "./ContactForm";
 export default function ContactSection() {
   return (
     <div id="ContactSection">

@@ -1,9 +1,10 @@
+import Image from "next/image";
 export default function HeroSection() {
   return (
     <div className="relative bg-white">
       <div className="lg:absolute lg:inset-0">
         <div className="lg:absolute lg:inset-y-0 lg:left-0 lg:w-1/2">
-          <img
+          <Image
             className="h-56 w-full object-cover lg:absolute lg:h-full"
             src="https://i.ibb.co/TWwTfwK/hero-2.jpg"
             alt=""

@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import toast, { Toaster } from "react-hot-toast";
 
-export const ContactUs = () => {
+export default function ContactUs() {
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
@@ -139,4 +139,4 @@ export const ContactUs = () => {
       </form>
     </div>
   );
-};
+}
