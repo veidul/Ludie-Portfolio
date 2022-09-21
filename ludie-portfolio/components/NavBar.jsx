@@ -34,12 +34,12 @@ export default function NavBar() {
               </div>
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
-                  <Image
+                  <img
                     className="block h-8 w-auto lg:hidden"
                     src="https://i.ibb.co/Pj6dxk4/favicon-32x32.png"
                     alt="Your Company"
                   />
-                  <Image
+                  <img
                     className="hidden h-8 w-auto lg:block"
                     src="https://i.ibb.co/Pj6dxk4/favicon-32x32.png"
                     alt="Your Company"

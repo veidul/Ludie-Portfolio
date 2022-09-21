@@ -1,5 +1,5 @@
 import { GlobeAltIcon } from "@heroicons/react/24/solid";
-import Image from "next/image";
+
 const myStyle = {
   backgroundImage:
     "url('https://i.ibb.co/7kQKhXd/pexels-jeremy-bishop-2397652.jpg')",
@@ -87,7 +87,7 @@ export default function ProjectsSection() {
               className="flex flex-col overflow-hidden rounded-lg shadow-lg"
             >
               <div className="flex-shrink-0">
-                <Image
+                <img
                   className="h-48 w-full object-cover"
                   src={post.imageUrl}
                   alt=""
@@ -110,7 +110,7 @@ export default function ProjectsSection() {
                 </div>
                 <div className="font-bold text-xl mb-2 flex space-x-10">
                   <a className="flex w-fit" href={post.gitHub}>
-                    <Image
+                    <img
                       className="hover:bg-slate-400"
                       src="https://img.icons8.com/fluency/42/000000/github.png"
                       alt=""

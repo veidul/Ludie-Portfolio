@@ -4,7 +4,6 @@ import {
   ServerStackIcon,
   DocumentArrowDownIcon,
 } from "@heroicons/react/24/outline";
-import Image from "next/image";
 const supportLinks = [
   {
     name: "Front End Tech",
@@ -35,7 +34,7 @@ export default function ResumeSection() {
       {/* Header */}
       <div className="relative bg-gray-800 pb-32">
         <div className="absolute inset-0">
-          <Image
+          <img
             className="h-full w-full object-cover"
             src="https://i.ibb.co/sC6GPyK/Pexels-btgl-3894157.jpg"
             alt=""
