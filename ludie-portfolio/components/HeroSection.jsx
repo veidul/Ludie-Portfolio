@@ -20,32 +20,30 @@ export default function HeroSection() {
               Ludie Fletcher Lambright V
             </h3>
             <p className="mt-8 text-m text-gray-900">
-              I am a Full Stack Web Developer with a background in Business and
-              Communications. Spending most of my younger years working in
-              restaurants as a server and bartender. I started my facination
-              with computers and technology when I was 12 years old. I have
-              always been a problem solver and I love to learn new things. I am
-              a graduate of University of California Irvine, Continued Education
-              Full Stack Web Development Program. I am currently looking for a
-              position as a Full Stack Web Developer.
+              I am a Full Stack Web Developer with prior studies in Business and
+              Communications. I have always been a problem solver, at previous
+              work places I was nicknamed “MacGyver”. I was always the one
+              fixing things. My fascination with computers and technology
+              started when I rebuilt a broken PC that was once my brothers.
+              Programming gives me the same feeling like I had when the broken
+              computer finally turned on and worked like new. A graduate top of
+              my class at UC Irvine, Cont. Education, Full Stack Web
+              Development. My professor was inspired by my engagement in the
+              class, and so he invited me to join his start-up as a Full Stack
+              Web Developer. I love nerding out on AWS and React.Js pretty much
+              daily. Additionally, I'm enjoying a couple side projects and some
+              freelance work.
             </p>
-            <div className="prose prose-indigo mt-5 text-gray-900">
+            <div className="prose prose-indigo text-m mt-8 text-gray-900">
               <p>
-                Working within the restaurant industry, I learned the importance
-                of customer service, communication, and how to work with a team.
-                Time oriented, and a fast learner, I am able to adapt to new
-                situations and environments quickly. I have a knack for wanting
-                to learn how things work and why they do the things they do.
-                From taking apart my first computer at 12 years old, to learning
-                how to code, I have a love for technology.
-              </p>
-              <p>
-                After graduating from the coding bootcamp, I have been working
-                on my own projects and learning new technologies. I am currently
-                working for a start up company with my professor and teachers
-                assistant from the bootcamp. I have also worked on a freelance
-                project for a week contract helping the owner of a small
-                business with their website.
+                Prior to my Full Stack Development Program, I worked for 10
+                years as a Server and Bartender. I advanced serious people
+                skills here, dealing with a broad spectrum of people of diverse
+                personalities and backgrounds. I learned the importance of
+                customer service, communication, and how to work with a team. I
+                honed a professional, service oriented attitude over the years,
+                creating good habits around being punctual, always ready to
+                learn something new and adapt to any environment.
               </p>
             </div>
           </div>

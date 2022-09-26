@@ -30,7 +30,7 @@ export default function ContactUs() {
     <div className="py-10 px-6 sm:px-10 lg:col-span-2 xl:p-12 text-gray-600">
       <Toaster />
       <h3 id="header" className="text-lg font-medium text-warm-gray-900">
-        Send us a message
+        Send me a message
       </h3>
       <form
         id="contact-form"
