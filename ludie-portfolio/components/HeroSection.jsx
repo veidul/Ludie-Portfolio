@@ -31,7 +31,7 @@ export default function HeroSection() {
               Development. My professor was inspired by my engagement in the
               class, and so he invited me to join his start-up as a Full Stack
               Web Developer. I love nerding out on AWS and React.Js pretty much
-              daily. Additionally, I'm enjoying a couple side projects and some
+              daily. Additionally, I am enjoying a couple side projects and some
               freelance work.
             </p>
             <div className="prose prose-indigo text-m mt-8 text-gray-900">
