@@ -53,11 +53,7 @@ export default function ResumeSection() {
             a link to download a current copy of my resume.
           </p>
           <div className="my-2">
-            <a
-              download="LudieResume.pdf"
-              href="https://ludielambright-resume.tiiny.site/"
-              title="Ludie-Resume"
-            >
+            <a download href="Ludie-Lambright-Resume.docx" title="Ludie-Resume">
               <button
                 type="button"
                 className="inline-flex items-center rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
