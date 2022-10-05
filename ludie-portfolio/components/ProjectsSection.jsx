@@ -7,6 +7,26 @@ const myStyle = {
 };
 const posts = [
   {
+    title: "OnSchedule",
+    gitHub: "https://github.com/veidul/onSchedule",
+    href: "https://on-schedule-llzhpebgm-veidul.vercel.app/",
+    category: { name: "", href: "#" },
+    description:
+      "Full Stack Next.js application with registration, login, and logout. Save events to a calendar, view them by day, week, and month.",
+    imageUrl: "https://i.ibb.co/Jt4Lwhq/On-Schedule.png",
+    technologies: "Next.js/Tailwind/React/Mongodb",
+  },
+  {
+    title: "The Event Community",
+    gitHub: "https://theeventcommunity.com/",
+    href: "https://theeventcommunity.com/",
+    category: { name: "", href: "#" },
+    description:
+      "Start up company I worked on contract with. The Event Community is a platform striving to support small businesses. It makes it easy to search and find local event services in your area. I was responsible for the front end fixes of the site.",
+    imageUrl: "https://i.ibb.co/R9B7WqL/Chrome-t-P6-QXVbrw2.png",
+    technologies: "React/Tailwind/Node.js",
+  },
+  {
     title: "Cypher-DM",
     gitHub: "https://github.com/veidul/CYPHER_DM",
     href: "https://sheltered-plateau-08067.herokuapp.com/",
@@ -44,26 +64,6 @@ const posts = [
       "Budget tracker application that allows user to keep track of budgets. You can enter deposits and expenses. User can deposit or enter expenses while there is no internet connection. When the user gains access to the internet again those offline additions will then persist.",
     imageUrl: "https://i.ibb.co/sg1MB4g/on-off-budget-tracker.png",
     technologies: "MongoDB/Node/IndexedDB/Service-worker",
-  },
-  {
-    title: "Workout Tracker",
-    gitHub: "https://github.com/veidul/workout-tracker",
-    href: "https://workout-tracker-veidul.herokuapp.com/",
-    category: { name: "", href: "#" },
-    description:
-      "Full stack web application allows user to track workouts. You can create a new workout, edit a workout, and view data on the last 7 workouts which calculates total weight and total duration of workout.",
-    imageUrl: "https://i.ibb.co/6HZqfbC/workout-tracker.png",
-    technologies: "MongoDB/Node/IndexedDB/Service-worker",
-  },
-  {
-    title: "Book Search Engine",
-    gitHub: "https://github.com/veidul/Book-Search-Engine",
-    href: "https://veidul-book-search-engine.herokuapp.com/",
-    category: { name: "", href: "#" },
-    description:
-      "Full Stack React application allows user to login, logout, search books, and save them.",
-    imageUrl: "https://i.ibb.co/NrBTjdC/book-search-engine.png",
-    technologies: "React/Apollo/Graphql/Mongodb",
   },
 ];
 
